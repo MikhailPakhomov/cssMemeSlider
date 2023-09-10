@@ -43,3 +43,47 @@ a {
     max-width: 100%;
     border-radius: 3%;
 }
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation {
+    display: flex;
+    gap: 0.5rem;
+}
+
+
+
+.messages-wrapper{
+    height: 1em;
+    overflow: hidden;
+}
+
+.messages-item {}
+
+input[type=radio] {
+    display: none;
+}
+.toggle-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1.1rem;
+    height: 1.1rem;
+    cursor: pointer;
+}
+.toggle {
+    display: block;
+    width: 0.7rem;
+    height: 0.7rem;
+    border-radius: 50%;
+    background-color: #79e233;
+    cursor: pointer;
+}
+
+.toggle:hover{
+    background-color: rgb(45, 45, 46);
+    border: 1px solid #79e233;
+    transition: background-color 0.7s , border 0.7s;
+}
