@@ -4,3 +4,42 @@
     margin: 0;
 }
 
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(45, 45, 46);
+    color: #ffffff;
+    font-size: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.container {
+    padding: 2rem;
+    overflow: hidden;
+}
+
+.slider-wrapper {
+    max-width: 50rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.slider {
+    width: 500%;
+    display: flex;
+    overflow: hidden;
+   margin-bottom: 1rem;
+}
+
+.slider-item{
+    width: 20%;
+}
+.slider-img {
+    max-width: 100%;
+    border-radius: 3%;
+}
