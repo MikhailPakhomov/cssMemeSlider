@@ -159,3 +159,17 @@ input[type=radio] {
     margin-top: -4.5em;
     transition: margin-top 0.7s;
 }
+@media screen and (max-width: 640px){
+    .nav-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .messages-wrapper{
+        order: 1;
+        align-self: flex-start;
+    }
+    .navigation{
+    margin-bottom: 1rem;
+    }
+
+}
