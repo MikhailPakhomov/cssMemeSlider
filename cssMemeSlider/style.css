@@ -87,3 +87,75 @@ input[type=radio] {
     border: 1px solid #79e233;
     transition: background-color 0.7s , border 0.7s;
 }
+/* изменение цвета переключателя */
+#msg1:checked ~ .nav-container .navigation .toggle1{
+    background-color: #ffffff;
+}
+#msg2:checked ~ .nav-container .navigation .toggle2{
+    background-color: #ffffff;
+}
+#msg3:checked ~ .nav-container .navigation .toggle3{
+    background-color: #ffffff;
+}
+#msg4:checked ~ .nav-container .navigation .toggle4{
+    background-color: #ffffff;
+}
+#msg5:checked ~ .nav-container .navigation .toggle5{
+    background-color: #ffffff;
+}
+
+.wrap1:hover > .toggle,
+.wrap2:hover > .toggle,
+.wrap3:hover > .toggle,
+.wrap4:hover > .toggle,
+.wrap5:hover > .toggle{
+    background-color: rgb(45, 45, 46);
+    border: 1px solid #79e233;
+    transition:  background-color 0.7s;
+}
+
+/* изменение слайдов */
+
+#msg1:checked ~ .slider {
+    margin-left: 0;
+    transition: margin-left 0.7s
+}
+#msg2:checked ~ .slider {
+    margin-left: -100%;
+    transition: margin-left 0.7s
+}
+#msg3:checked ~ .slider {
+    margin-left: -200%;
+    transition: margin-left 0.7s
+}
+#msg4:checked ~ .slider {
+    margin-left: -300%;
+    transition: margin-left 0.7s
+}
+#msg5:checked ~ .slider {
+    margin-left: -400%;
+    transition: margin-left 0.7s
+}
+
+/* изменение текста */
+
+#msg1:checked ~ .nav-container .messages {
+    margin-top: 0;
+    transition: margin-top 0.7s;
+} 
+#msg2:checked ~ .nav-container .messages {
+    margin-top: -1.2em;
+    transition: margin-top 0.7s;
+} 
+#msg3:checked ~ .nav-container .messages {
+    margin-top: -2.3em;
+    transition: margin-top 0.7s;
+} 
+#msg4:checked ~ .nav-container .messages {
+    margin-top: -3.4em;
+    transition: margin-top 0.7s;
+} 
+#msg5:checked ~ .nav-container .messages {
+    margin-top: -4.5em;
+    transition: margin-top 0.7s;
+}
